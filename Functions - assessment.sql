@@ -15,6 +15,10 @@ Select max(price) as Most_Expensive, min(price) as Lease_Expensive
 from product_details;
 
 --- Scenario 4 --- Count()
+Create table de_course.Customer(
+STD_ID INT,
+STD_NAME varchar(30),
+Course_Name varchar(30));
 
 Select count(*) as Total_registration
 from customer;
